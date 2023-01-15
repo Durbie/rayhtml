@@ -1,0 +1,109 @@
+  :root{
+    --ray-green: #00a651;
+    --ray-blue: #008CFF;
+  }
+  
+  html, body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color:none;
+  }
+  
+  header{
+    margin: 0 auto;
+  }
+  
+  header img{
+    display:flex;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  
+  nav{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--ray-green);
+    font-size:24px;
+    padding:12px;
+    border-radius: 20px;
+  }
+  
+  ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+  }
+  
+  ul a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+
+  #activated{
+    text-decoration: underline;
+  }
+
+  #banner{
+    background-image: url("img/bg_home_banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    width: 850px;
+    margin: 5px auto;
+    background-position: center;
+    border-radius: 8px;
+  }
+
+  #banner-text{
+    text-align: center;
+    position:absolute;
+    bottom: 60px;
+    left:50%;
+    transform: translateX(-50%);
+    color: white;
+    text-shadow: -5px 1px 6px green;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  h3{
+    font-weight: normal;
+    text-align: center;
+  }
+
+  #socials{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .s_icon{
+    max-width: 128px;
+  }
+
+  iframe{
+    margin: 0 auto;
+    display:block;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  footer hr{
+   max-width: 900px; 
+  }
